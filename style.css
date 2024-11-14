@@ -130,3 +130,11 @@ img{
     object-fit: cover;
 
 }
+.three p{
+    text-align: center;
+    margin-top: 60px;
+    font-size: 20px;
+    font-style: italic;
+    padding: 10px 20px ;
+
+}

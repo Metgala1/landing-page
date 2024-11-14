@@ -33,3 +33,5 @@ those four divs are in a div which has a display of flex enabling them to be sid
 why they have the same class is because anyy style that is give will affact the 4 divs.
 
 i used figcaption to write the names of teh various dishes 
+
+I added a quote to my 3rd section by ALAN WATTS
