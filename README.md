@@ -13,4 +13,6 @@ Worked on the layout of my page.
 
 I use i used display flex and flex-direction column for my page layout.
 
-i have have five divs in the flex parent element and i have give each div background-colors from the sample given to me
+i have have five divs in the flex parent element and i have give each div background-colors from the sample given to me.
+
+i used flexbox to position my nav-list and my logo. made my nav elemnet flex and used align-self to get logo and the nav-list centeralised
