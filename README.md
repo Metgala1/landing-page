@@ -22,3 +22,14 @@ i inserted an image in the right div, this photo is from another website called 
 it has a width of 100% and height 100% within that div and i used the object-fit  property and a value contain to make it fit and look good within that div.
 
 the image can be found in the new folder i've added called images.
+
+i have 4 photos in my images all of them are from a website call allrecipes.com.
+
+in my second secton i have heading and four images.
+this images are in div different divs with same class.
+
+those four divs are in a div which has a display of flex enabling them to be sideby side.
+
+why they have the same class is because anyy style that is give will affact the 4 divs.
+
+i used figcaption to write the names of teh various dishes 
