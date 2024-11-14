@@ -65,6 +65,18 @@ nav .logo{
 }
 a{
     color: white;
-    text-decoration: none;
+    text-decoration: none; 
     padding: 5px
+}
+.one-div div{
+width: 45%;
+height: 250px;
+margin: 10px 0;
+    
+}
+.one-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+
 }
