@@ -17,9 +17,6 @@ body{
     flex-direction: column;
     
 }
-.my-div{
-    height: 25px;
-}
 .one{
     background-color: #1F2937;
     flex-grow: 3;
@@ -132,9 +129,10 @@ img{
 }
 .three p{
     text-align: center;
-    margin-top: 60px;
+    margin: 60px auto;
     font-size: 20px;
     font-style: italic;
     padding: 10px 20px ;
+    width: 70%
 
 }
