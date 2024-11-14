@@ -1,3 +1,6 @@
+*{
+    outline: 1px solid red;
+}
 #container{
     width: 65%;
     margin: auto;
@@ -20,6 +23,8 @@ body{
 .one{
     background-color: #1F2937;
     flex-grow: 3;
+    font-family: roboto, sans-serif;
+    color: white;
 }
 .two{
     background-color: white;
@@ -36,4 +41,25 @@ body{
 .five{
     background-color: #1F2937;
     flex-grow: 0.5;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    align-self: center;
+}
+nav{
+    display: flex;
+    padding: 0 40px;
+    height: 30px;
+}
+
+nav ul li{
+    margin: 5px;
+    min-height: 1px;
+}
+nav .header{
+    font-size: 24px;
+    color: #f9faf8;
+    align-self: center;
 }
