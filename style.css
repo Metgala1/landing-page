@@ -58,8 +58,13 @@ nav ul li{
     margin: 5px;
     min-height: 1px;
 }
-nav .header{
+nav .logo{
     font-size: 24px;
     color: #f9faf8;
     align-self: center;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding: 5px
 }
