@@ -85,3 +85,15 @@ img{
     height: 100%;
     object-fit: contain;
 }
+.one-div .intro{
+    font-weight: 900;
+}
+.one-div .intro-2{
+    font-size: 12px;
+}
+.one-div button{
+    padding: 5px;
+    background-color: #3882f6;
+    border: 2px solid #3882f6;
+    border-radius: 4px;
+}
