@@ -1,12 +1,11 @@
-*{
-    outline: 1px solid red;
-}
+
 #container{
     width: 65%;
     margin: auto;
 }
 body{
     margin: 0;
+    background-color: darkgray;
 
 }
 
@@ -22,14 +21,16 @@ body{
     flex-grow: 3;
     font-family: roboto, sans-serif;
     color: white;
+    padding-bottom: 20px;
 }
 .two{
     background-color: white;
-    flex-grow: 2.5;
+    flex-grow: 3;
+    padding-bottom: 30px
 }
 .three{
     background-color: #e5e7eb;
-    flex-grow: 2;
+    flex-grow: 1;
 }
 .four{
     background-color: white;
@@ -69,6 +70,7 @@ a{
 width: 45%;
 height: 250px;
 margin: 10px 0;
+margin-left: 40px
     
 }
 .one-div{
@@ -135,4 +137,38 @@ img{
     padding: 10px 20px ;
     width: 70%
 
+}
+.four div{
+    background-color: #3882f6;
+    width: 80%;
+    color: white;
+    margin: 10px 60px;
+}
+.four .first{
+    font-size: 20px;
+    line-height: 0.5;
+    font-weight: 900;
+}
+.four .second{
+    font-size: 16px;
+}
+.last-button{
+    background-color: #3882f6;
+    color: white;
+    height: 40px;
+    align-self: center;
+    width: 80px;
+    margin: 10px 10px;
+    border-radius: 5px;
+    border: 1px solid white;
+  
+}
+.five p{
+    text-align: center;
+    color: white
+}
+
+
+.four .text{
+    display: flex;
 }

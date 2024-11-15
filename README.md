@@ -35,3 +35,11 @@ why they have the same class is because anyy style that is give will affact the 
 i used figcaption to write the names of teh various dishes 
 
 I added a quote to my 3rd section by ALAN WATTS
+
+for the fourth section i added a div this div has a blue color and it houses two p element one with the text of Order. in the blue div we have a button.
+
+this blue div bellow has a dislay of flex and the children sit side by side.
+
+i give my my button a new color and use border-radius to round the corners and gave a border of 1 px solid white 
+
+as for the footer i just added a p element containing text and give it a text align center.
