@@ -64,7 +64,7 @@ nav .logo{
 a{
     color: white;
     text-decoration: none; 
-    padding: 5px
+    padding: 5px;
 }
 .one-div div{
 width: 45%;
@@ -171,4 +171,18 @@ img{
 
 .four .text{
     display: flex;
+}
+
+.one-div button:hover{
+    background-color: white;
+    cursor: pointer;
+    border: 1px solid black;
+
+}
+
+.last-button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
 }
