@@ -43,3 +43,5 @@ this blue div bellow has a dislay of flex and the children sit side by side.
 i give my my button a new color and use border-radius to round the corners and gave a border of 1 px solid white 
 
 as for the footer i just added a p element containing text and give it a text align center.
+
+check the new folder proto-photos this containing images of the stages in the development of the webpage 
