@@ -1,12 +1,16 @@
+*{
+    box-sizing: border-box;
+}
 
 #container{
-    width: 70%;
     margin: auto;
 
 }
 body{
     margin: 0;
     background-color: darkgray;
+    height: 100vh;
+    box-sizing: border-box;
 
 }
 
@@ -109,7 +113,7 @@ img{
     height: 180px;
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: auto;
     margin-top: -15px;
 
@@ -144,11 +148,15 @@ img{
     width: 70%
 
 }
+.four{
+    padding: 10px 0px;
+}
 .four div{
     background-color: #3882f6;
     width: 80%;
     color: white;
-    margin: 10px 60px;
+    margin: auto;
+    padding: 0px 10px;
 }
 .four .first{
     font-size: 20px;
