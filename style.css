@@ -1,212 +1,173 @@
 *{
     box-sizing: border-box;
-}
-
-#container{
-    margin: auto;
-
+    margin: 0;
 }
 body{
-    margin: 0;
-    background-color: darkgray;
+    width: 100vw;
     height: 100vh;
-    box-sizing: border-box;
-
-}
-
-.flex-container{
-    width: 100%;
-    height: auto;
     display: flex;
     flex-direction: column;
-    
 }
-.one{
+/*This section is focus on styling the the first div the blue one*/
+.box-one{
+    flex: 1;
     background-color: #1F2937;
-    flex-grow: 3;
-    font-family: roboto, sans-serif;
+    padding-left: 2px;
+}
+/*Styling the the nav*/
+.nav{
+    display: flex;
+    width: 80vw;
     color: white;
-    padding-bottom: 20px;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    margin-top: 10px;
 }
-.two{
-    background-color: white;
-    flex-grow: 3;
-    padding-bottom: 30px;
+.nav .logo{
+    font-size: 25px;
 }
-.three{
-    background-color: #e5e7eb;
-    flex-grow: 1;
-}
-.four{
-    background-color: white;
-    flex-grow: 1.5;
-}
-.five{
-    background-color: #1F2937;
-    flex-grow: 0.5;
-}
-nav ul{
+.nav ul{
     list-style-type: none;
     display: flex;
-    margin-left: auto;
-    align-self: center;
+    justify-content: center;
+    gap: 10px;
 }
-nav{
-    display: flex;
-    padding: 0 40px;
-    height: 30px;
-}
-
-nav ul li{
-    margin: 5px;
-    min-height: 1px;
-}
-nav .logo{
-    font-size: 24px;
-    color: #f9faf8;
-    align-self: center;
-}
-a{
+.nav ul li a{
+    text-decoration: none;
     color: white;
-    text-decoration: none; 
-    padding: 5px;
 }
-.one-div div{
-width: 45%;
-height: 250px;
-margin: 10px 0;
-margin-left: 40px
+/*Styling the second section of the first div the blue div*/
+.intro-div{
+    display: flex;
+    width: 80vw;
+    margin: auto;
+    margin-top: 15px;
+    gap: 10px
+}
+.intro-div  div, .intro-div figure{
+    width: 50%;
+    min-height: 300px;
+    padding: 30px 10px;
+    
     
 }
-.one-div{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 
-}
-img{
+.intro-div figure img{
     width: 100%;
-    height: 100%;
-    object-fit: contain;
+    height: auto;
+    display: block;
+    margin: auto;
     border-radius: 10px;
 }
-.one-div .intro{
-    font-weight: 900;
-}
-.one-div .intro-2{
-    font-size: 12px;
-}
-.one-div button{
-    padding: 5px;
-    background-color: #3882f6;
-    border: 2px solid #3882f6;
-    border-radius: 4px;
-}
-.info{
+.intro-div figure figcaption {
     text-align: center;
-    font-size: 26px;
-    font-weight: 900;
-    margin-top: 1px;
-}
-.image-box{
-    width: 70%;
-    height: 180px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin: auto;
-    margin-top: -15px;
-
-    
-
-}
-.images{
-    margin: 10px;
-    height: 150px;
-    gap: 5px;
-    flex: 1;
-    border-radius: 15px;
-    text-align: center;
-    justify-content:space-evenly;
-   
-}
-.images img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
-   
-
-
-}
-.three p{
-    text-align: center;
-    margin: 60px auto;
-    font-size: 20px;
-    font-style: italic;
-    padding: 10px 20px ;
-    width: 70%
-
-}
-.four{
-    padding: 10px 0px;
-}
-.four div{
-    background-color: #3882f6;
-    width: 80%;
-    color: white;
-    margin: auto;
-    padding: 0px 10px;
-}
-.four .first{
-    font-size: 20px;
-    line-height: 0.5;
-    font-weight: 900;
-}
-.four .second{
-    font-size: 16px;
-}
-.last-button{
-    background-color: #3882f6;
-    color: white;
-    height: 40px;
-    align-self: center;
-    width: 80px;
-    margin: 10px 10px;
-    border-radius: 5px;
-    border: 1px solid white;
-  
-}
-.five p{
-    text-align: center;
-    color: white
-}
-
-
-.four .text{
-    display: flex;
-}
-
-.one-div button:hover{
-    background-color: white;
-    cursor: pointer;
-    border: 1px solid black;
-
-}
-
-.last-button:hover{
-  background-color: white;
-  color: black;
-  border: 1px solid black;
-  cursor: pointer;
-}
-.one-div div{
-    width: 40%;
-    padding: 10px;
-}
-.one-div div:nth-last-of-type(2){
-    margin-bottom: 10%;
-}
-em{
     color: goldenrod;
+    font-size: larger;
 }
+.intro-div div .intro{
+    color: #F9FAF8;
+    margin-bottom: 1rem;
+    font-size: 30px;
+    font-weight: 900;
+
+}
+.intro-div div .intro-2{
+    color: #E5E7EB;
+    font-size: 18px;
+}
+.intro-div div button{
+    display: block;
+    margin-top: 10px;
+    background-color: #3882F6;
+    color: white;
+    border-radius: 5px;
+    padding: 2px 20px;
+    border: none;
+}
+
+/*Styling second section of the body*/
+.box-two{
+    flex: 1;
+    background-color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+.box-two .info{
+    font-size: 25px;
+    font-weight: 900;
+}
+.box-two .image-box {
+    width: 80%;
+    display: flex;
+    margin: auto;
+    gap: 15px;
+    margin-top: 15px;
+    padding: 30px;
+}
+.box-two .image-box .images{
+    width: 25vw;
+
+}
+.box-two .image-box .images img{
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    border: 4px solid rgb(8, 173, 228);
+
+}
+/*Styling the third section of the page, the grey box*/
+.box-three{
+    flex: 1;
+    background-color: grey;
+    padding: 30px;
+    
+}
+.box-three p{
+    padding: 40px;
+    text-align: center;
+    font-style: italic;
+}
+
+/*Styling the fourth section of the page*/
+.box-four{
+    width: 100%;
+    flex: 1;
+    background-color: white;
+    padding: 10px;
+   
+}
+.box-four .text{
+    width: 70%;
+    margin: auto;
+    display: flex;
+    background-color: rgb(50, 95, 110);
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+.box-four .text div{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.box-four .text div button{
+    display: block;
+    background-color: lightskyblue;
+    padding: 2px 20px;
+    border: none;
+
+}
+/*Last section of the page/footer section*/
+.box-five{
+    text-align: center;
+    padding: 20px;
+    background-color: #1F2937;
+    color: white;
+}
+
