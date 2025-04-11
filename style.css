@@ -68,14 +68,9 @@ body{
 .intro-div div .intro{
     color: #F9FAF8;
     margin-bottom: 1rem;
-    font-size: 30px;
+    font-size: 45px;
     font-weight: 900;
 
-}
-@media (max-width: 500px){
-    .intro-div div .intro{
-        font-size: larger;
-    }
 }
 .intro-div div .intro-2{
     color: #E5E7EB;
@@ -146,12 +141,12 @@ body{
     width: 70%;
     margin: auto;
     display: flex;
-    background-color: rgb(50, 95, 110);
+    background-color: #3882F6;
     margin-top: 10px;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     border-radius: 5px;
     
 }
@@ -174,6 +169,17 @@ body{
     padding: 20px;
     background-color: #1F2937;
     color: white;
+}
+@media (max-width: 500px){
+    .intro-div div .intro{
+        font-size: larger;
+    }
+    
+.intro-div div .intro-2{
+    color: #E5E7EB;
+    font-size: 12px;
+}
+
 }
 
 
