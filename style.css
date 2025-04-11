@@ -72,6 +72,11 @@ body{
     font-weight: 900;
 
 }
+@media (max-width: 500px){
+    .intro-div div .intro{
+        font-size: larger;
+    }
+}
 .intro-div div .intro-2{
     color: #E5E7EB;
     font-size: 18px;
@@ -170,4 +175,5 @@ body{
     background-color: #1F2937;
     color: white;
 }
+
 
