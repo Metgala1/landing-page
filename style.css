@@ -160,13 +160,23 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    color: white;
+}
+.box-four .text div .first{
+    margin-bottom: 5px;
 }
 .box-four .text div button{
     display: block;
-    background-color: lightskyblue;
+    background-color: #3882F6;
     padding: 2px 20px;
-    border: none;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
 
+}
+.box-four .text div button:hover{
+    color: black;
+    transition: color 2s;
 }
 /*Last section of the page/footer section*/
 .box-five{
